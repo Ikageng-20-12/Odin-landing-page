@@ -1,0 +1,112 @@
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainheader{
+    display: flex;
+    flex-direction: column;
+    background-color: #02253B;
+    height: 300px;
+}
+
+.headerpart {
+    display: flex;
+    align-items: start; 
+    justify-content: space-around; 
+    
+
+}
+
+.headerpart h3{
+    margin-right: 170px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.headercont{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.headercont h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 0%;
+   
+}
+
+.headercont p {
+    color: white;
+    margin: 0%;
+    margin-bottom: 10px;
+   
+}
+
+.headercont button {
+    background-color: #006EF5;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.imagecont{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.image{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #7f8185;
+    border-radius: 50%;
+}
+.links {
+    display: flex;
+    gap: 30px;
+ 
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+
+.middleone {
+    height: 230px;
+    background-color: #ffffff;
+    
+}
+
+.middleone div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.middletwo {
+
+}
+
+.middlethree {
+
+}
+
+.footerpart {
+    
+    
+}
