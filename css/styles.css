@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
 .maincontainer {
     display: flex;
     flex-direction: column;
@@ -112,6 +117,7 @@
     margin-top: 20px;
     width: 450px;
     font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-style: italic;
 }
 
 .boxcontainer {
@@ -157,4 +163,58 @@
 .middleone .boxcontainer div::after {
     opacity: 0;
     visibility: hidden;
+}
+
+.middletwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #A5ADB6;
+
+}
+
+.middletwo p{
+    font-family: "Georgia", serif; 
+    font-style: italic; 
+}
+
+.innermiddle{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.auther{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.middlethree{
+    height: 300px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerthree{
+    background-color: #006EF5;
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.innerthree p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+.footerpart{
+    height: 80px;
+    background-color: #02253B;
 }
